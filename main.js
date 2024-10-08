@@ -1,5 +1,5 @@
 import * as THREE from  'three';
-import { OrbitControls } from 'controls/OrbitControls.js';
+import { OrbitControls } from './controls/OrbitControls.js';
 import {initRenderer,
         initCamera,
         initDefaultBasicLight,
