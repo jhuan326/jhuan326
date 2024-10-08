@@ -7,7 +7,7 @@ import {initRenderer,
         InfoBox,
         onWindowResize,
         createGroundPlaneXZ} from "../libs/util/util.js";
-import KeyboardState from '/util/KeyboardState.js';
+import KeyboardState from './util/KeyboardState.js';
 import { updateColliders } from 'updateColliders.js';
 import { layoutScene } from 'layout.js'
 import { centralCannon, rotateCannon, shootCentralCannon, tankColliderCannon } from 'centralCannon.js';
