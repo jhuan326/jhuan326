@@ -22,10 +22,10 @@ import { updateEnemyTanks } from './updateEnemyTanks.js';
 import { openGates12, openGates34 } from './openGate.js';
 import { removeTankA, removeTankB, removeTankC, removeTankD, removeTankE, removeTankF, removeCompleteBC } from './removeTanks.js';
 import { createGates, createCorridors } from './createGates.js';
-import { createPowerUps, rotatePowerUps, takePowerUp } from './powerUps.js';
+import { createPowerUps, rotatePowerUps, takePowerUp } from 'powerUps.js';
 import { createMovingWalls, updateMovingWalls } from './movingWalls.js';
 import { initAudio } from './sounds.js';
-import { updateLifePlayerTank, updateLifeEnemysTank, verifyShootInCannon } from './updateLife.js';
+import { updateLifePlayerTank, updateLifeEnemysTank, verifyShootInCannon } from 'updateLife.js';
 import { updateBarsLifeEnemyTankA,
          updateBarsLifeEnemyTankB,
          updateBarsLifeEnemyTankC,
