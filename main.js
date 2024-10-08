@@ -7,24 +7,24 @@ import {initRenderer,
         InfoBox,
         onWindowResize,
         createGroundPlaneXZ} from "../libs/util/util.js";
-import KeyboardState from '../libs/util/KeyboardState.js';
-import { updateColliders } from './updateColliders.js';
-import { layoutScene } from './layout.js'
-import { centralCannon, rotateCannon, shootCentralCannon, tankColliderCannon } from './centralCannon.js';
-import { insertSkybox } from './skybox.js';
-import { loadTanks } from './tanksImport.js';
-import { keyboardUpdate } from './moveTanks.js'
-import { tankColliderWall, tankColliderGate, tankColliderMovingWalls } from './tankColliderWall.js';
-import { updateCamera, handleZoom } from './camera.js'
-import { updateProjectile } from './projectile.js'
-import { createDirectionalLightLevel1, createSpotLights, createDirectionalLightLevel3} from './lighting.js'
-import { updateEnemyTanks } from './updateEnemyTanks.js';
-import { openGates12, openGates34 } from './openGate.js';
-import { removeTankA, removeTankB, removeTankC, removeTankD, removeTankE, removeTankF, removeCompleteBC } from './removeTanks.js';
-import { createGates, createCorridors } from './createGates.js';
+import KeyboardState from 'util/KeyboardState.js';
+import { updateColliders } from 'updateColliders.js';
+import { layoutScene } from 'layout.js'
+import { centralCannon, rotateCannon, shootCentralCannon, tankColliderCannon } from 'centralCannon.js';
+import { insertSkybox } from 'skybox.js';
+import { loadTanks } from 'tanksImport.js';
+import { keyboardUpdate } from 'moveTanks.js'
+import { tankColliderWall, tankColliderGate, tankColliderMovingWalls } from 'tankColliderWall.js';
+import { updateCamera, handleZoom } from 'camera.js'
+import { updateProjectile } from 'projectile.js'
+import { createDirectionalLightLevel1, createSpotLights, createDirectionalLightLevel3} from 'lighting.js'
+import { updateEnemyTanks } from 'updateEnemyTanks.js';
+import { openGates12, openGates34 } from 'openGate.js';
+import { removeTankA, removeTankB, removeTankC, removeTankD, removeTankE, removeTankF, removeCompleteBC } from 'removeTanks.js';
+import { createGates, createCorridors } from 'createGates.js';
 import { createPowerUps, rotatePowerUps, takePowerUp } from 'powerUps.js';
-import { createMovingWalls, updateMovingWalls } from './movingWalls.js';
-import { initAudio } from './sounds.js';
+import { createMovingWalls, updateMovingWalls } from 'movingWalls.js';
+import { initAudio } from 'sounds.js';
 import { updateLifePlayerTank, updateLifeEnemysTank, verifyShootInCannon } from 'updateLife.js';
 import { updateBarsLifeEnemyTankA,
          updateBarsLifeEnemyTankB,
@@ -32,7 +32,7 @@ import { updateBarsLifeEnemyTankA,
          updateBarsLifeEnemyTankD,
          updateBarsLifeEnemyTankE,
          updateBarsLifeEnemyTankF,
-         updateBarsLifePlayerTank } from './updateBarsLife.js';
+         updateBarsLifePlayerTank } from 'updateBarsLife.js';
 
 
 let isRendering = true; // Define se a renderização está ativa
